@@ -36,7 +36,7 @@ class missing:
 
 	def calc(self):
 		self.dataset = self.read_file()
-		if (self.method == 'mean'):
+		if (self.method == 'replace'):
 			data = self.mean_replace()
 			print("Missing values replaced!!")
 		else:
@@ -51,7 +51,7 @@ class missing:
 		self.method = method
 		self.calc()
 
-def main(i_filename,o_filename,method='mean'):
+def main(i_filename,o_filename,method='replace'):
 	t = missing(i_filename,o_filename,method)
 
 if __name__ == '__main__':
