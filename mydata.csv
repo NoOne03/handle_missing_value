@@ -1,0 +1,19 @@
+price,storage space,camera,dd,gender
+11,y,11,aa,m
+12,n,12,bb,NaN
+11,n,11,bb,f
+13,NaN,11,bb,f
+14,y,14,aa,m
+12,y,13,bb,m
+10,y,10,aa,m
+14,y,14,aa,m
+12,n,12,bb,f
+13,n,22,aa,f
+12,NaN,12,bb,m
+11,y,11,aa,m
+10,y,11,bb,m
+NaN,n,10,aa,f
+15,y,14,NaN,f
+12,n,11,aa,f
+141,n,12,aa,NaN
+12,y,12,aa,m
